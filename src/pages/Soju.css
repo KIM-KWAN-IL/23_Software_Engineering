@@ -1,0 +1,134 @@
+.sojustyle {
+  
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  display: block;
+  border: 5px solid rgba(0, 52, 88, 0.8); 
+}
+
+.comment-box-container {
+  margin-top: -350px;
+  margin-left:-100px;
+  
+  
+}
+.comment-username{
+  font-weight: bold;
+
+
+}
+.comment-ul {
+  list-style-type: none;
+}
+.comment-input {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  margin-top: -80px;
+  margin-right: -185px;
+  margin-left:120px;
+  height: 80px
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.memo-pin-image {
+  width: 80px; 
+  height: 80px; 
+  margin-left: 550px; 
+  margin-top: -70px;
+}
+.comment-text {
+  display: inline;
+  margin-left: 50px
+}
+
+.comment-submit-btn {
+  background-color: #0E0F37;
+  color: #fff;
+  height:50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:190px;
+  margin-top: -45px;
+  margin-bottom: 10px;
+  line-height: 35px; 
+  
+}
+.comment-button-submit-location{
+  display: flex; 
+  
+
+}
+
+.comment-list {
+  margin-top: -420px;
+  overflow: scroll;
+  float: left;
+  margin-left:380px;
+  width : 700px;
+  height : 350px;
+  background-color: rgba(226, 220, 220, 0); 
+  
+}
+
+.comment-list::-webkit-scrollbar {
+  width: 10px; 
+  background-color: rgba(0, 0, 0, 0); 
+}
+
+.comment-item {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.image-info-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  margin-top: 20px;
+  margin-left:-85px;
+}
+.info-container {
+  flex: 1;
+  padding-left: 10px; 
+  margin-left:-55px;
+}
+
+.info-container h1 {
+  text-align: center;
+  margin-left:-75px;
+  margin-top: 20px;
+  font-size:65px;
+  font-weight: 595;
+  
+}
+.info-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info-container p {
+  margin-bottom: 10px;
+  margin-left:-75px;
+}
+.no-comments {
+  text-align: center;
+  color: #999;
+}
