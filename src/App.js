@@ -19,7 +19,6 @@ import { useState, useEffect } from "react";
 import SearchWhiskey from "./pages/SearchWhiskey";
 import SearchCocktail from "./pages/SearchCocktail";
 
-//12351456
 
 function App() {
 
